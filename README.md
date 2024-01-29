@@ -1,7 +1,7 @@
 # Gerenciamento-de-Oficina-Automotiva
 Projeto de Teste de Software.
 
-gerenciamento de oficina automotiva refere-se ao conjunto de práticas e processos usados ​​para administrar eficientemente uma oficina que oferece serviços relacionados a veículos automotivos.
+ Gerenciamento de oficina automotiva refere-se ao conjunto de práticas e processos usados ​​para administrar eficientemente uma oficina que oferece serviços relacionados a veículos automotivos.
 O objetivo principal é melhorar as operações, melhorar a eficiência e fornecer um atendimento de qualidade aos clientes.Logo a seguir, temos algumas expplicacao das classe que estão sendo utilizado.
 
 
