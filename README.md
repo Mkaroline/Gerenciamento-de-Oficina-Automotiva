@@ -4,7 +4,7 @@ Projeto de Teste de Software.
 
 Introdução:
 
-o gerenciamento de uma oficina automotiva., destaca a importância de práticas e processos eficientes para garantir um atendimento de qualidade aos clientes, além de melhorar asoperações e a eficiência interna.Ele aborda aspectos como agendamento de serviços, controle de estoque, gestão de mão de obra, comunicação com clientes, pagamentos, atendimento ao cliente e o uso de ferramentas tecnológicas. Esses são pontos-chave para garantir que a oficina funcione de forma eficiente e que os clientes recebam um serviço de alta qualidade.A incorporação de sistemas de gestão automotiva, softwares de diagnóstico e outras ferramentas tecnológicas também é destacada como uma maneira de melhorar significativamente a eficiência operacional.
+o gerenciamento de uma oficina automotiva, destaca a importância de práticas e processos eficientes para garantir um atendimento de qualidade aos clientes, além de melhorar asoperações e a eficiência interna. Aborda aspectos como agendamento de serviços, controle de estoque, gestão de mão de obra, comunicação com clientes, pagamentos, atendimento ao cliente e o uso de ferramentas tecnológicas. Esses são pontos-chave para garantir que a oficina funcione de forma eficiente e que os clientes recebam um serviço de alta qualidade.A incorporação de sistemas de gestão automotiva, softwares de diagnóstico e outras ferramentas tecnológicas também é destacada como uma maneira de melhorar significativamente a eficiência operacional.
 
 O objetivo principal:
 
