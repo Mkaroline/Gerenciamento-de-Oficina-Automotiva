@@ -34,7 +34,7 @@ Pagamentos: Utilizar um sistema eficiente para faturar serviços, gerenciar paga
 
 ## :family_man_woman_girl: Equipe
 
-:man_teacher: Docente: [Alysson Filgueira Milanez]
+:man_teacher: Docente: [Alysson Filgueira Milanez].<br />
 :woman_student: Discente: [Íris Matias da Silva](https://github.com/IrisMatiasdaSilva).<br />
 :woman_student: Discente: [Maria Karoline Firmino de Moura](https://github.com/Mkaroline).<br />
 :woman_student: Discente: [Maria Luma da Silva Oliveira](https://github.com/LumaOlli).<br />
