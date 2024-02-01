@@ -1,6 +1,8 @@
-# Gerenciamento-de-Oficina-Automotiva
+<h1 align="center">Sistema de Gerenciamento de Oficina Automotiva 🚗</h1>
 
-Projeto de Teste de Software.
+Projeto de Teste de Software
+
+## **:computer:** Descrição
 
 Introdução:
 
@@ -30,3 +32,11 @@ Realizações Futuras:
 Comunicação com Clientes: atualizações e notificações que mantem os clientes informados sobre o status de seus veículos, aprovações de orçamento e quaisquer descobertas durante os reparos contribui para uma comunicação transparente.
 
 Pagamentos: Utilizar um sistema eficiente para faturar serviços, gerenciar pagamentos e gerenciar as finanças da oficina.
+
+## :family_man_woman_girl: Equipe
+
+:man_teacher: Docente: [Alysson Filgueira Milanez]
+:woman_student: Discente: [Íris Matias da Silva](https://github.com/IrisMatiasdaSilva).<br />
+:woman_student: Discente: [Maria Karoline Firmino de Moura](https://github.com/Mkaroline).<br />
+:woman_student: Discente: [Maria Luma da Silva Oliveira](https://github.com/LumaOlli).<br />
+
