@@ -5,7 +5,7 @@
 
 <h1 align="center"> Introdução: </h1>
 
-o gerenciamento de uma oficina automotiva, destaca a importância de práticas e processos eficientes para garantir um atendimento de qualidade aos clientes, além de melhorar asoperações e a eficiência interna. Aborda aspectos como agendamento de serviços, controle de estoque, gestão de mão de obra, comunicação com clientes, pagamentos, atendimento ao cliente e o uso de ferramentas tecnológicas. Esses são pontos-chave para garantir que a oficina funcione de forma eficiente e que os clientes recebam um serviço de alta qualidade.A incorporação de sistemas de gestão automotiva, softwares de diagnóstico e outras ferramentas tecnológicas também é destacada como uma maneira de melhorar significativamente a eficiência operacional.
+ o gerenciamento de uma oficina automotiva, destaca a importância de práticas e processos eficientes para garantir um atendimento de qualidade aos clientes, além de melhorar asoperações e a eficiência interna. Aborda aspectos como agendamento de serviços, controle de estoque, gestão de mão de obra, comunicação com clientes, pagamentos, atendimento ao cliente e o uso de ferramentas tecnológicas. Esses são pontos-chave para garantir que a oficina funcione de forma eficiente e que os clientes recebam um serviço de alta qualidade.A incorporação de sistemas de gestão automotiva, softwares de diagnóstico e outras ferramentas tecnológicas também é destacada como uma maneira de melhorar significativamente a eficiência operacional.
 
 <h1 align="center">  Objetivo principal: </h1>
 
@@ -13,7 +13,7 @@ o gerenciamento de uma oficina automotiva, destaca a importância de práticas e
 
 <h1 align="center">  Objetivo específico: </h1>
 
-<h1 1- Primeiramente analisar as necessidades da oficina; </h1> 
+<h1 "center" > 1- Primeiramente analisar as necessidades da oficina; </h1> 
 <h1 2- Permite identificar erros durante as etapas de desenvolvimento; </h1>
 <h1 3- Testar o sistema de gerenciamento em ambientes simulados e reais, identificando e corrigindo eventuais falhas para assegurar sua confiabilidade e eficácia; </h1>
 <h1 4- A qualidade do produto e seu funcionamento correto que garante a confiança do usuário final e sua satisfação ao utilizar o software. </h1>
