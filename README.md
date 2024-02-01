@@ -13,10 +13,10 @@
 
 <h1 align="center">  Objetivo específico: </h1>
 
-<h1 "center" > 1- Primeiramente analisar as necessidades da oficina; </h1> 
-<h1 2- Permite identificar erros durante as etapas de desenvolvimento; </h1>
-<h1 3- Testar o sistema de gerenciamento em ambientes simulados e reais, identificando e corrigindo eventuais falhas para assegurar sua confiabilidade e eficácia; </h1>
-<h1 4- A qualidade do produto e seu funcionamento correto que garante a confiança do usuário final e sua satisfação ao utilizar o software. </h1>
+<h1 1- Primeiramente analisar as necessidades da oficina; /h1> 
+<h1 2- Permite identificar erros durante as etapas de desenvolvimento; /h1>
+<h1 3- Testar o sistema de gerenciamento em ambientes simulados e reais, identificando e corrigindo eventuais falhas para assegurar sua confiabilidade e eficácia;/h1>
+<h1 4- A qualidade do produto e seu funcionamento correto que garante a confiança do usuário final e sua satisfação ao utilizar o software. /h1>
 
 
 <h1 align="center"> Desenvolvimento: </h1>
