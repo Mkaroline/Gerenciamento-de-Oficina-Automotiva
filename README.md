@@ -4,15 +4,15 @@ Projeto de Teste de Software
 
 ## **:computer:** Descrição
 
-Introdução:
+<h1 align="center"> Introdução: </h1>
 
 o gerenciamento de uma oficina automotiva, destaca a importância de práticas e processos eficientes para garantir um atendimento de qualidade aos clientes, além de melhorar asoperações e a eficiência interna. Aborda aspectos como agendamento de serviços, controle de estoque, gestão de mão de obra, comunicação com clientes, pagamentos, atendimento ao cliente e o uso de ferramentas tecnológicas. Esses são pontos-chave para garantir que a oficina funcione de forma eficiente e que os clientes recebam um serviço de alta qualidade.A incorporação de sistemas de gestão automotiva, softwares de diagnóstico e outras ferramentas tecnológicas também é destacada como uma maneira de melhorar significativamente a eficiência operacional.
 
-O objetivo principal:
+<h1 align="center">  Objetivo principal: </h1>
 
 È melhorar as operações, a eficiência e fornecer um atendimento de qualidade aos clientes.
 
-Dessenvolvimento:
+<h1 align="center"> Dessenvolvimento: </h1>
 
 O sistema de Gerenciamento de oficina automotiva refere-se ao conjunto de práticas e processos usados ​​para administrar eficientemente uma oficina que oferece serviços relacionados a veículos automotivos.
 Logo a seguir, temos algumas explicaçâo das classe que estão sendo utilizado no sistema:
@@ -27,7 +27,7 @@ Atendimento ao Cliente: Serviço ao Cliente Oferecer um atendimento ao cliente e
 
 O gerenciamento adequado de uma oficina automotiva não apenas melhora a eficiência interna, mas também contribui para a satisfação do cliente, o que é essencial para o sucesso a longo prazo.
 
-Realizações Futuras:
+<h1 align="center"> Realizações Futuras:  </h1>
 
 Comunicação com Clientes: atualizações e notificações que mantem os clientes informados sobre o status de seus veículos, aprovações de orçamento e quaisquer descobertas durante os reparos contribui para uma comunicação transparente.
 
