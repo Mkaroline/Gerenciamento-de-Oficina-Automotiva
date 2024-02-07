@@ -1,0 +1,38 @@
+create table produtos
+	(id_produto serial,
+	nome_produto varchar(30),
+	descricao_prod varchar(100),
+	preco_prod numeric,
+	quantidade int,
+	primary key (id_produto));
+
+create table clientes
+	(id_cliente  serial, 
+	endereco varchar(50),
+	telefone varchar(12),
+	veiculo varchar (20),
+	nome_do_cliente varchar(20),
+	primary key (id_cliente));
+	
+create table mecanicos
+	(id_mecanico serial,
+	especialidade varchar (20),
+	nome_do_mecanico varchar(20),
+	primary key (id_mecanico));
+
+create table servicos
+	(id_servico serial,
+	name_srvc varchar(30),
+	desc_srvc varchar(100),
+	mecanico_id int,
+	id_cliente int, 
+	orcamento numeric,
+	primary key (id_servico),
+	foreign key (mecanico_id) references mecanicos ON DELETE CASCADE,
+	foreign key (id_cliente) references clientes ON DELETE CASCADE);
+	
+create table servicos_e_pecas_utilizadas
+	(servico_id int,
+	produto_id int,
+	foreign key (servico_id) references servicos ON DELETE CASCADE,
+	foreign key (produto_id) references produtos ON DELETE CASCADE);
