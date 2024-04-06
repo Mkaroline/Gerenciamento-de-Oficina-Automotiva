@@ -41,6 +41,7 @@ public class ServicoDAO {
             int id_servico = consulta.getInt("id_servico");
             String name_srvc = consulta.getString("name_srvc");
             String desc_srvc = consulta.getString("desc_srvc");
+            double orcamento = consulta.getDouble("orcamento");
             String especialidade = consulta.getString("especialidade");
             int id_mecanico = consulta.getInt("mecanico_id");
             String nome_do_mecanico = consulta.getString("nome_do_mecanico");
@@ -54,6 +55,7 @@ public class ServicoDAO {
             System.out.println("ID do serviço: "+id_servico);
             System.out.println("Nome do serviço: "+name_srvc);
             System.out.println("Descrição do serviço: "+desc_srvc);
+            System.out.println("Orçamento do serviço: "+orcamento);
             System.out.println("\nDADOS DO MECÂNICO RELACIONADO AO SERVIÇO: ");
             System.out.println("ID do mecânico: "+id_mecanico);
             if(nome_do_mecanico != null){
