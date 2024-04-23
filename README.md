@@ -15,7 +15,7 @@
 
    
 ## **:computer:** Tutorial de Login
-  <p align="justify">  Acesse as configurações do computador na caixa de pesquisa procure por painel de controle : 
+  <p align="justify">  Acesse as configurações do computador, na caixa de pesquisa procure por painel de controle : 
   Selecione o campo Sistema e Segurança </p>
 <div align="center">
 <img src="https://github.com/Mkaroline/Banco-de-Dados/assets/112703319/c5005028-225f-488f-b25b-6d447d0d2725" width="700px" />
