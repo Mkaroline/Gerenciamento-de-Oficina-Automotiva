@@ -15,18 +15,18 @@
 
    
 ## **:computer:** Tutorial de Login
-  <p align="justify">  Acesse as configurações do computador, na caixa de pesquisa procure por painel de controle : 
-  Selecione o campo Sistema e Segurança </p>
+  <p align="justify">  Acesse as configurações do computador, na caixa de pesquisa procure por painel de controle: 
+  selecione o campo Sistema e Segurança </p>
 <div align="center">
 <img src="https://github.com/Mkaroline/Banco-de-Dados/assets/112703319/c5005028-225f-488f-b25b-6d447d0d2725" width="700px" />
 </div>
 
- <p align="justify">  Selecione a opção Sistema em seguida será direcionado para a tela de configuraçâo do sistema </p>
+ <p align="justify">  Selecione a opção Sistema em seguida será direcionado para a tela de configuração do sistema </p>
 <div align="center">
 <img src="https://github.com/Mkaroline/Banco-de-Dados/assets/112703319/bd7d660c-ff47-4c17-a6f4-9b66c9f1688e"50px" />
 </div>
 
- <p align="justify">  Selecione a opção: Configurações Avançadas do Sistema  </p>
+ <p align="justify">  Selecione a opção: configurações Avançadas do Sistema  </p>
 <div align="center">
 <img src="https://github.com/Mkaroline/Banco-de-Dados/assets/112703319/5602d319-df6b-4d39-8690-0a14b5cfc8b7"50px" />
 </div>
@@ -47,7 +47,7 @@
 <img src="https://github.com/Mkaroline/Banco-de-Dados/assets/112703319/ab30d2a6-f02f-4560-80a5-eb85550a5256"250px" />
 </div>
 
-  <p align="justify"> Após preencher verifique se o nome e a senha está correta: Selecione a opção ok </p>
+  <p align="justify"> Após preencher verifique se o nome e a senha está correta: selecione a opção ok </p>
 <div align="center">
 <img src="https://github.com/Mkaroline/Banco-de-Dados/assets/112703319/5f35c201-a897-46b1-9d5e-8eb950a0850e"250px" />
 </div>
