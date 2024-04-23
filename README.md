@@ -32,12 +32,12 @@
 </div>
 
  <p align="justify"> O usuário será direcionado para a tela Propriedade do Sistema: selecione a
- opçâo Variavéis de Ambiente </p>
+ opção Variavéis de Ambiente </p>
 <div align="center">
 <img src="https://github.com/Mkaroline/Banco-de-Dados/assets/112703319/d0dc09b9-f99c-45ed-8f36-9c980b1fe547"250px" />
 </div>
 
-  <p align="justify"> Ao selecionar a Variáveis de Ambiente: selecione a opçâo Novo que permite ao usuário criar a própria senha </p>
+  <p align="justify"> Ao selecionar a Variáveis de Ambiente: selecione a opção Novo que permite ao usuário criar a própria senha </p>
 <div align="center">
 <img src="https://github.com/Mkaroline/Banco-de-Dados/assets/112703319/5508a956-b917-4bbd-bfbd-8cfcc789ebfc"250px" />
 </div>
@@ -47,7 +47,7 @@
 <img src="https://github.com/Mkaroline/Banco-de-Dados/assets/112703319/ab30d2a6-f02f-4560-80a5-eb85550a5256"250px" />
 </div>
 
-  <p align="justify"> Após preencher verifique se o nome e a senha está correta: Selecione a opçâo ok </p>
+  <p align="justify"> Após preencher verifique se o nome e a senha está correta: Selecione a opção ok </p>
 <div align="center">
 <img src="https://github.com/Mkaroline/Banco-de-Dados/assets/112703319/5f35c201-a897-46b1-9d5e-8eb950a0850e"250px" />
 </div>
