@@ -1,4 +1,6 @@
-package Projeto.Entidades;
+package Entidades;
+
+import Excecoes.DadosInvalidosException;
 
 public class Produto {
     private String nomeProduto;
@@ -6,15 +8,39 @@ public class Produto {
     private double precoProduto;
     private int quantidadeProduto;
 
-    public Produto(String nomeProduto, String descricaoProduto, double precoProduto, int quantidadeProduto) {
+    public Produto(String nomeProduto, String descricaoProduto, double precoProduto, int quantidadeProduto)throws DadosInvalidosException {
+        validarCampos(nomeProduto, descricaoProduto, precoProduto, quantidadeProduto);
         this.nomeProduto = nomeProduto;
         this.descricaoProduto = descricaoProduto;
         this.precoProduto = precoProduto;
         this.quantidadeProduto = quantidadeProduto;
+        System.out.println("Produto cadastrado com sucesso!");
     }
 
+    // Método para validar campos
+    private void validarCampos(String nomeProduto, String descricaoProduto, 
+    double precoProduto, int quantidadeProduto) throws DadosInvalidosException {
+        if (nomeProduto == null || nomeProduto.isEmpty()) {
+            throw new DadosInvalidosException("Nome do produto não pode estar vazio");
+        }
+
+        if (descricaoProduto == null || descricaoProduto.isEmpty()) {
+            throw new DadosInvalidosException("Descrição do produto não pode estar vazio");
+        }
+
+        if (precoProduto < 0) {
+            throw new DadosInvalidosException("Preço tem que ser maior que zero");
+        }
+
+        if (quantidadeProduto <= 0) {
+            throw new DadosInvalidosException("Quantidade tem que ser maior ou igual que zero");
+        }
+    
+    }
+
+
     public Produto(){}
-    //Getters e setters
+    // Getters e setters
 
     public String getNomeProduto() {
         return nomeProduto;
@@ -52,5 +78,4 @@ public class Produto {
     public String toString() {
         return "Nome: " + nomeProduto + ", Descrição: " + descricaoProduto + ", Preço: " + precoProduto + ", Quantidade: " + quantidadeProduto;
     }
-
 }

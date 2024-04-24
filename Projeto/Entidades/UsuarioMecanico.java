@@ -1,12 +1,32 @@
-package Projeto.Entidades;
+package Entidades;
+
+import Excecoes.DadosInvalidosException;
 
 public class UsuarioMecanico extends Usuario {
     private String especialidadeMecanico;
 
     // Construtor
-    public UsuarioMecanico( String nome, String especialidadeMecanico) {
-        super(nome);
+    public UsuarioMecanico( String nome, String cpf, String especialidadeMecanico) throws DadosInvalidosException{
+        super(nome, cpf);
+        validarCampos(nome, cpf, especialidadeMecanico);
         this.especialidadeMecanico = especialidadeMecanico;
+        System.out.println("Mecanico cadastrado com sucesso!");
+    }
+
+     // Método para validar campos
+     private void validarCampos(String nome, String cpf, String especialidadeMecanico) throws DadosInvalidosException {
+        if (nome == null || nome.isEmpty()) {
+            throw new DadosInvalidosException("Nome não pode estar vazio");
+        }
+
+        if (cpf == null || cpf.isEmpty()) {
+            throw new DadosInvalidosException("CPF não pode estar vazio");
+        }
+
+        if (especialidadeMecanico == null || especialidadeMecanico.isEmpty()) {
+            throw new DadosInvalidosException("Especialidade não pode estar vazio");
+        }
+        
     }
 
     public UsuarioMecanico(){
@@ -24,6 +44,6 @@ public class UsuarioMecanico extends Usuario {
 
     @Override
     public String toString() {
-        return ", Nome: " + getNome() + ", Especialidade: " + especialidadeMecanico;
+        return ", Nome: " + getNome() + ", CPF: " + getcpf() + ", Especialidade: " + especialidadeMecanico;
     }
 }

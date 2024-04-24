@@ -1,34 +1,60 @@
-package Projeto.Entidades;
+package Entidades;
 
-import java.util.ArrayList;
-import java.util.List;
+import Excecoes.DadosInvalidosException;
 
 public class Servico {
     private String nomeServico;
     private String descricaoServico;
-    private List<Produto> pecasUtilizadasnoServico;
-    private UsuarioMecanico mecanicoResponsavel;    //Mecanico responsavel
-    private Double orcamentoServico;
+    private UsuarioMecanico mecanicoResponsavel; // Mecânico responsável
+    private double orcamentoServico;
     private String cliente;
+    private String statusServico;
 
-    public Servico(String nomeServico, String descricaoServico, String pecasUtilizadas, UsuarioMecanico mecanicoResponsavel, Double orcamentoServico, String cliente){
+
+
+    public Servico(String nomeServico, String descricaoServico, UsuarioMecanico mecanicoResponsavel, double orcamentoServico, String cliente, String statusServico) throws DadosInvalidosException {
+        validarCampos(nomeServico, descricaoServico, descricaoServico, orcamentoServico, cliente, statusServico);
         this.nomeServico = nomeServico;
         this.descricaoServico = descricaoServico;
         this.mecanicoResponsavel = mecanicoResponsavel;
         this.orcamentoServico = orcamentoServico;
-        this.pecasUtilizadasnoServico = new ArrayList<>();  //Inicializa a lista de peças utilizadas.
         this.cliente = cliente;
+        this.statusServico= statusServico;
+        System.out.println("Serviço cadastrado com sucesso!");
     }
 
-    public Servico() {
+    private void validarCampos(String nomeServico, String descricaoServiço, String mecanicorResponsavel, 
+            Double orcamentoServico, String cliente, String statusServico) throws DadosInvalidosException {
+        if (nomeServico == null || nomeServico.isEmpty()) {
+            throw new DadosInvalidosException("Nome do serviço não pode estar vazio");
+        }
 
+        if (descricaoServiço == null || descricaoServiço.isEmpty()) {
+            throw new DadosInvalidosException("Descrição não pode estar vazio");
+        }
+
+        if (mecanicorResponsavel == null || mecanicorResponsavel.isEmpty()) {
+            throw new DadosInvalidosException("Especialidade não pode estar vazio");
+        }
+        
+        if (orcamentoServico == null) {
+            throw new DadosInvalidosException("Orçam não pode estar vazio");
+        }
+
+        if (cliente == null || cliente.isEmpty()) {
+            throw new DadosInvalidosException("Cliente não pode estar vazio");
+        }
+
+        if (statusServico == null || statusServico.isEmpty()) {
+            throw new DadosInvalidosException("Status do serviço não pode estar vazio");
+        }
     }
 
-    //Getters e setters para os atributos existentes...
-
-    public Servico(String nomeDoServico, String descServico, UsuarioMecanico auxMecanico, double orcamento,
-            String nomeDoCliente) {
+    public Servico(){
+        
     }
+
+    // Getters e setters para os atributos existentes...
 
     public String getNomeServico() {
         return nomeServico;
@@ -36,6 +62,14 @@ public class Servico {
 
     public String getCliente(){
         return cliente;
+    }
+
+    public String getstatusServico(){
+        return statusServico;
+    }
+
+    public void setstatusServico(String statusServico){
+        this.statusServico = statusServico;
     }
 
     public void setNomeServico(String nomeServico) {
@@ -50,15 +84,8 @@ public class Servico {
         this.descricaoServico = descricaoServico;
     }
 
-    public List<Produto> getPecasUtilizadas() {
-        return pecasUtilizadasnoServico;
-    }
 
-    public void setPecasUtilizadas(List<Produto> pecasUtilizadasnoServico) {
-        this.pecasUtilizadasnoServico = pecasUtilizadasnoServico;
-    }
-
-    public  UsuarioMecanico getMecanicoResponsavel() {
+    public UsuarioMecanico getMecanicoResponsavel() {
         return mecanicoResponsavel;
     }
 
@@ -66,23 +93,14 @@ public class Servico {
         this.mecanicoResponsavel = mecanicoResponsavel;
     }
 
-    public Double getOrcamentoServico() {
+    public double getOrcamentoServico() {
         return orcamentoServico;
     }
 
-    public void setOrcamentoServico(Double orcamentoServico) {
+    public void setOrcamentoServico(double orcamentoServico) {
         this.orcamentoServico = orcamentoServico;
     }
 
-    //Metodo para adicionar uma peça a lista de peças utilizadas
-    public void adicionarPecaUtilizada(Produto peca){
-        pecasUtilizadasnoServico.add(peca);
-    }
-
-    //Metodo para remover uma peça da lista de peças utilizadas
-    public void removerPecaUtilizada(Produto peca){
-        pecasUtilizadasnoServico.remove(peca);
-    }
 
     @Override
     public String toString() {
@@ -92,10 +110,7 @@ public class Servico {
         sb.append("Mecânico Responsável: ").append(mecanicoResponsavel.getNome()).append("\n");
         sb.append("Orçamento: ").append(orcamentoServico).append("\n");
         
-        sb.append("Peças Utilizadas no Serviço:\n");
-        for (Produto peca : pecasUtilizadasnoServico) {
-            sb.append("- ").append(peca.getNomeProduto()).append("\n");
-        }
+        
         
         return sb.toString();
     }

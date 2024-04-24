@@ -1,6 +1,6 @@
-package Projeto.Entidades;
+package Entidades;
 
-import Projeto.Excecoes.DadosInvalidosException;
+import Excecoes.DadosInvalidosException;
 
 public class UsuarioAdministrador extends Usuario{
     private String cargo;
@@ -9,18 +9,22 @@ public class UsuarioAdministrador extends Usuario{
     private boolean log;
 
     //construtor
-    public UsuarioAdministrador(String nome, String cargo, String login, String senha) throws DadosInvalidosException{
-        super (nome);
-        validarCampos(nome, cargo, login, senha);
+    public UsuarioAdministrador(String nome, String cpf, String cargo, String login, String senha) throws DadosInvalidosException{
+        super (nome,cpf);
+        validarCampos(nome, cpf, cargo, login, senha);
         this.cargo = cargo;
         this.login = login;
         this.senha = senha;
     }
 
-   // Método para validar campos
-    private void validarCampos(String nome,String cargo, String login, String senha) throws DadosInvalidosException {
+    // Método para validar campos
+    private void validarCampos(String nome, String cpf, String cargo, String login, String senha) throws DadosInvalidosException {
         if (nome == null || nome.isEmpty()) {
             throw new DadosInvalidosException("Nome não pode estar vazio");
+        }
+
+        if (cpf == null || cpf.isEmpty()) {
+            throw new DadosInvalidosException("CPF não pode estar vazio");
         }
 
         if (cargo == null || cargo.isEmpty()) {
@@ -74,6 +78,6 @@ public class UsuarioAdministrador extends Usuario{
 
     @Override
     public String toString() {
-        return ", Nome: " + getNome() + ", Cargo: " + cargo + ", Login: " + login + ", Senha: " + senha;
+        return ", Nome: " + getNome() + ", CPF: "+ getcpf() + ", Cargo: " + cargo + ", Login: " + login + ", Senha: " + senha;
     }
 }
