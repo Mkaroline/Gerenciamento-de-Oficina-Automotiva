@@ -12,12 +12,14 @@ create table clientes
 	telefone varchar(12),
 	veiculo varchar (20),
 	nome_do_cliente varchar(20),
+	cpf_do_cliente varchar(11),
 	primary key (id_cliente));
 	
 create table mecanicos
 	(id_mecanico serial,
 	especialidade varchar (20),
 	nome_do_mecanico varchar(20),
+	cpf_do_mecanico varchar(11),
 	primary key (id_mecanico));
 
 create table servicos
@@ -27,12 +29,12 @@ create table servicos
 	mecanico_id int,
 	id_cliente int, 
 	orcamento numeric,
+	status_Servico varchar(50),
 	primary key (id_servico),
 	foreign key (mecanico_id) references mecanicos ON DELETE CASCADE,
 	foreign key (id_cliente) references clientes ON DELETE CASCADE);
 	
-create table servicos_e_pecas_utilizadas
-	(servico_id int,
-	produto_id int,
-	foreign key (servico_id) references servicos ON DELETE CASCADE,
-	foreign key (produto_id) references produtos ON DELETE CASCADE);
+create table agenda
+	(data DATE,
+    servico varchar(100),
+    foreign key (id_cliente) references clientes ON DELETE CASCADE);
