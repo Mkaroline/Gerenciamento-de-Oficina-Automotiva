@@ -13,8 +13,8 @@
 
    <p align="justify">   Com a integração dos conceitos ensinado na disciplina de Teste de Software, esta versão do sistema adota uma abordagem estruturada para definir e validar requisitos funcionais e não funcionais. Através dessa metodologia, garantimos não apenas a funcionalidade esperada do sistema, mas também sua confiabilidade, desempenho e usabilidade. Além disso, a incorporação dos princípios de teste de software não apenas assegura a qualidade do produto final, mas também simplifica o processo de manutenção e evolução do sistema ao longo do tempo. Utilizando testes em todas as etapas do desenvolvimento, garantimos a estabilidade e confiabilidade do sistema em diferentes cenários de uso. </p>
 
-   
-
+## Links importantes
+   [Guias de configurações](https://docs.google.com/document/d/1QNXer5olDYq25rOK9GQ3xSSEoLSVJNweo8Mn3ecqbN0/edit).<br />
 
 ## :family_man_woman_girl: Equipe
 
