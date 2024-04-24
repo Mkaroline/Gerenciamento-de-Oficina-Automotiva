@@ -1,4 +1,4 @@
-package Projeto.DAO;
+package DAO;
 
 import java.sql.*;
 
