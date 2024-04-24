@@ -14,49 +14,6 @@
    <p align="justify">   Com a integração dos conceitos ensinado na disciplina de Teste de Software, esta versão do sistema adota uma abordagem estruturada para definir e validar requisitos funcionais e não funcionais. Através dessa metodologia, garantimos não apenas a funcionalidade esperada do sistema, mas também sua confiabilidade, desempenho e usabilidade. Além disso, a incorporação dos princípios de teste de software não apenas assegura a qualidade do produto final, mas também simplifica o processo de manutenção e evolução do sistema ao longo do tempo. Utilizando testes em todas as etapas do desenvolvimento, garantimos a estabilidade e confiabilidade do sistema em diferentes cenários de uso. </p>
 
    
-## **:computer:** Tutorial de Login
-  <p align="justify">  Acesse as configurações do computador, na caixa de pesquisa procure por painel de controle: 
-  selecione o campo Sistema e Segurança </p>
-<div align="center">
-<img src="https://github.com/Mkaroline/Banco-de-Dados/assets/112703319/c5005028-225f-488f-b25b-6d447d0d2725" width="700px" />
-</div>
-
- <p align="justify">  Selecione a opção Sistema em seguida será direcionado para a tela de configuração do sistema </p>
-<div align="center">
-<img src="https://github.com/Mkaroline/Banco-de-Dados/assets/112703319/bd7d660c-ff47-4c17-a6f4-9b66c9f1688e"50px" />
-</div>
-
- <p align="justify">  Selecione a opção: configurações Avançadas do Sistema  </p>
-<div align="center">
-<img src="https://github.com/Mkaroline/Banco-de-Dados/assets/112703319/5602d319-df6b-4d39-8690-0a14b5cfc8b7"50px" />
-</div>
-
- <p align="justify"> O usuário será direcionado para a tela Propriedade do Sistema: selecione a
- opção Variavéis de Ambiente </p>
-<div align="center">
-<img src="https://github.com/Mkaroline/Banco-de-Dados/assets/112703319/d0dc09b9-f99c-45ed-8f36-9c980b1fe547"250px" />
-</div>
-
-  <p align="justify"> Ao selecionar a Variáveis de Ambiente: selecione a opção Novo que permite ao usuário criar a própria senha </p>
-<div align="center">
-<img src="https://github.com/Mkaroline/Banco-de-Dados/assets/112703319/5508a956-b917-4bbd-bfbd-8cfcc789ebfc"250px" />
-</div>
-
-  <p align="justify"> Na tela Nova variável o usuário terá um nome para a variavel e o valor da variável </p>
-<div align="center">
-<img src="https://github.com/Mkaroline/Banco-de-Dados/assets/112703319/ab30d2a6-f02f-4560-80a5-eb85550a5256"250px" />
-</div>
-
-  <p align="justify"> Após preencher verifique se o nome e a senha está correta: selecione a opção ok </p>
-<div align="center">
-<img src="https://github.com/Mkaroline/Banco-de-Dados/assets/112703319/5f35c201-a897-46b1-9d5e-8eb950a0850e"250px" />
-</div>
-
- <p align="justify"> A senha para entra no sistema está pronta: selecione ok, senha cadastrada </p>
-<div align="center">
-<img src="https://github.com/Mkaroline/Banco-de-Dados/assets/112703319/dcf339ff-d507-4c11-90f7-118fb4c580d9"250px" />
-</div>
-
 
 
 ## :family_man_woman_girl: Equipe
