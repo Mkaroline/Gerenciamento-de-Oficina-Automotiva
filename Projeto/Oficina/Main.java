@@ -39,6 +39,7 @@ public class Main {
             } else {
                 tentativas++;
                 if (tentativas < 3) {
+                    System.out.println("\n");
                     System.out.println("Tente novamente.");
                 } else {
                     System.out.println("Você excedeu o número máximo de tentativas. Acesso bloqueado.");

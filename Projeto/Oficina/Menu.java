@@ -122,7 +122,7 @@ public class Menu {
                             quantidade = entradas.nextInt();
                             Menu.clearBuffer(entradas);
                             auxProduto.setQuantidadeProduto(quantidade);
-                            daoProduto.editarProduto(auxProduto, "orcamento", idProduto);
+                            daoProduto.editarProduto(auxProduto, "quantidade", idProduto);
                     
                         } else {
                             System.out.println("Opçao invalida");
