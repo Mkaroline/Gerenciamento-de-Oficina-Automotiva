@@ -13,8 +13,12 @@
 
    <p align="justify">   Com a integração dos conceitos ensinado na disciplina de Teste de Software, esta versão do sistema adota uma abordagem estruturada para definir e validar requisitos funcionais e não funcionais. Através dessa metodologia, garantimos não apenas a funcionalidade esperada do sistema, mas também sua confiabilidade, desempenho e usabilidade. Além disso, a incorporação dos princípios de teste de software não apenas assegura a qualidade do produto final, mas também simplifica o processo de manutenção e evolução do sistema ao longo do tempo. Utilizando testes em todas as etapas do desenvolvimento, garantimos a estabilidade e confiabilidade do sistema em diferentes cenários de uso. </p>
 
-## Links importantes
-   [Guias de configurações](https://docs.google.com/document/d/1QNXer5olDYq25rOK9GQ3xSSEoLSVJNweo8Mn3ecqbN0/edit).<br />
+## Links Importantes
+   * [Guias de configurações.](https://docs.google.com/document/d/1QNXer5olDYq25rOK9GQ3xSSEoLSVJNweo8Mn3ecqbN0/edit#heading=h.q298exf8ljm8)<br />
+   * [Relatório.](https://docs.google.com/document/d/1hchAgYVzjC0Oog2BFJf2ambYpeJtjWHBL9kbRrIlhXY/edit#heading=h.9dbc3vc7bxfy)<br />
+   * [Testes Realizados.](https://docs.google.com/document/d/1_DFBd8K1wYIcUHvDQJS0qEaheZoR3OymNIHuwoSun-o/edit)<br />
+   * [Diagramas.](https://docs.google.com/document/d/17RFAc26urJRDSvbKNMss2Bo4KzDHqfGP6EgF3V_4sfI/edit#heading=h.2xjqs1e1y9ow)<br />
+   * [Slide.](https://docs.google.com/presentation/d/16Pj8JoFoyuRHhLn_DUHzHSMjYocZrgkX_leIlgI9XVw/edit#slide=id.g289aed8708a_0_0)<br />
 
 ## :family_man_woman_girl: Equipe
 
